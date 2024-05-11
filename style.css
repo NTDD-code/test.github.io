@@ -1,0 +1,66 @@
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styles */
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Course list styles */
+.course-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Course item styles */
+.course-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.course-item:hover {
+    background-color: #f1f3f5;
+}
+
+/* Course title styles */
+.course-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Course description styles */
+.course-item p {
+    font-size: 16px;
+}
+.pdf-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 40px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+    border-radius: 45px;
+    cursor: pointer;
+}
