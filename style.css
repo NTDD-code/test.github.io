@@ -64,3 +64,9 @@ h1 {
     border-radius: 45px;
     cursor: pointer;
 }
+/* Responsive styles for embedded videos */
+.course-item iframe {
+    max-width: 100%;
+    height: auto;
+}
+
