@@ -56,11 +56,11 @@ h1 {
     background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 40px 30px;
+    padding: 20px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 45px;
+    font-size: 30px;
     border-radius: 45px;
     cursor: pointer;
 }
