@@ -53,7 +53,7 @@ h1 {
     font-size: 16px;
 }
 .pdf-button {
-    background-color: #4CAF50;
+    background-color: #d41414;
     border: none;
     color: white;
     padding: 20px 30px;
@@ -66,7 +66,44 @@ h1 {
 }
 /* Responsive styles for embedded videos */
 .course-item iframe {
+    border-radius: 50px;
     max-width: 100%;
     height: auto;
 }
+.find-text-button{
+    background-color: #f00000d5;
+    border: none;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 45px;
+    cursor: pointer;
+}
+/* Course list styles */
+.course-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px; /* Add some space above the course list */
+}
 
+/* Course list item styles */
+.course-list li {
+    margin-bottom: 10px; /* Add space between each course name */
+}
+
+/* Course list link styles */
+.course-list a {
+    text-decoration: none;
+    color: #333; /* Change link color */
+    font-size: 18px; /* Change font size */
+    display: inline-block; /* Ensure each link takes its own line */
+    transition: color 0.3s; /* Add smooth transition effect for color change */
+}
+
+/* Course list link hover styles */
+.course-list a:hover {
+    color: #f00000d5; /* Change link color on hover */
+}
