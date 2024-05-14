@@ -97,4 +97,55 @@ h1 {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     transform: scale(1.02);
 }
-
+.dark-mode-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 16px;
+}
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+    .container {
+        width: 80%;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #000000;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.705);
+    }
+    .course-item {
+        border: 1px solid #000000;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease-in-out;
+    }
+    
+    .course-item:hover {
+        background-color: #7e241875;
+    }
+    
+    /* Course title styles */
+    .course-item h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    /* Course description styles */
+    .course-item p {
+        font-size: 16px;
+    }
+    .dark-mode-button {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+        font-size: 16px;
+    }
+}
