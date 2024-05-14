@@ -66,12 +66,14 @@ h1 {
 }
 /* Responsive styles for embedded videos */
 .course-item iframe {
-    border-radius: 50px;
+    border-radius: 30px;
     max-width: 100%;
-    height: auto;
+    height: 500px; /* Adjust this value to your desired height */
+    width: 100%; /* Adjust this value to your desired width */
 }
-.find-text-button{
-    background-color: #f00000d5;
+
+.find-text-button {
+    background: linear-gradient(135deg, #ff0000, #ff8080);
     border: none;
     color: white;
     padding: 20px 30px;
@@ -81,4 +83,18 @@ h1 {
     font-size: 30px;
     border-radius: 45px;
     cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
+
+.find-text-button:hover {
+    background: linear-gradient(135deg, #ff8080, #ff0000);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.find-text-button:active {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
